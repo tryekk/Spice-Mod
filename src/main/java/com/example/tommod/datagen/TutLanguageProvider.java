@@ -15,10 +15,10 @@ public class TutLanguageProvider extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
-        add("itemGroup." + TAB_NAME, "Tutorial");
+        add("itemGroup." + TAB_NAME, "Spice");
         add(Registration.SPICE_ORE_OVERWORLD.get(), "Spice Ore");
-        add(Registration.MYSTERIOUS_ORE_NETHER.get(), "Mysterious ore");
-        add(Registration.MYSTERIOUS_ORE_END.get(), "Mysterious ore");
-        add(Registration.MYSTERIOUS_ORE_DEEPSLATE.get(), "Mysterious ore");
+        add(Registration.SPICE_ORE_NETHER.get(), "Nether Spice Ore");
+        add(Registration.SPICE_ORE_END.get(), "End Spice Ore");
+        add(Registration.SPICE_ORE_DEEPSLATE.get(), "Deepslate Spice ore");
     }
 }

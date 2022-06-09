@@ -18,9 +18,9 @@ public class TutItemTags extends ItemTagsProvider {
     protected void addTags() {
         tag(Tags.Items.ORES)
                 .add(Registration.SPICE_ORE_OVERWORLD_ITEM.get())
-                .add(Registration.MYSTERIOUS_ORE_NETHER_ITEM.get())
-                .add(Registration.MYSTERIOUS_ORE_END_ITEM.get())
-                .add(Registration.MYSTERIOUS_ORE_DEEPSLATE_ITEM.get());
+                .add(Registration.SPICE_ORE_NETHER_ITEM.get())
+                .add(Registration.SPICE_ORE_END_ITEM.get())
+                .add(Registration.SPICE_ORE_DEEPSLATE_ITEM.get());
     }
 
     @Override

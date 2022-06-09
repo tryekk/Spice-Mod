@@ -15,8 +15,8 @@ public class TutBlockStates extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         simpleBlock(Registration.SPICE_ORE_OVERWORLD.get());
-        simpleBlock(Registration.MYSTERIOUS_ORE_NETHER.get());
-        simpleBlock(Registration.MYSTERIOUS_ORE_END.get());
-        simpleBlock(Registration.MYSTERIOUS_ORE_DEEPSLATE.get());
+        simpleBlock(Registration.SPICE_ORE_NETHER.get());
+        simpleBlock(Registration.SPICE_ORE_END.get());
+        simpleBlock(Registration.SPICE_ORE_DEEPSLATE.get());
     }
 }

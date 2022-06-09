@@ -30,12 +30,12 @@ public class Registration {
 
     public static final RegistryObject<Block> SPICE_ORE_OVERWORLD = BLOCKS.register("spice_ore_overworld", () -> new Block(BLOCK_PROPERTIES));
     public static final RegistryObject<Item> SPICE_ORE_OVERWORLD_ITEM = fromBlock(SPICE_ORE_OVERWORLD);
-    public static final RegistryObject<Block> MYSTERIOUS_ORE_NETHER = BLOCKS.register("mysterious_ore_nether", () -> new Block(BLOCK_PROPERTIES));
-    public static final RegistryObject<Item> MYSTERIOUS_ORE_NETHER_ITEM = fromBlock(MYSTERIOUS_ORE_NETHER);
-    public static final RegistryObject<Block> MYSTERIOUS_ORE_END = BLOCKS.register("mysterious_ore_end", () -> new Block(BLOCK_PROPERTIES));
-    public static final RegistryObject<Item> MYSTERIOUS_ORE_END_ITEM = fromBlock(MYSTERIOUS_ORE_END);
-    public static final RegistryObject<Block> MYSTERIOUS_ORE_DEEPSLATE = BLOCKS.register("mysterious_ore_deepslate", () -> new Block(BLOCK_PROPERTIES));
-    public static final RegistryObject<Item> MYSTERIOUS_ORE_DEEPSLATE_ITEM = fromBlock(MYSTERIOUS_ORE_DEEPSLATE);
+    public static final RegistryObject<Block> SPICE_ORE_NETHER = BLOCKS.register("spice_ore_nether", () -> new Block(BLOCK_PROPERTIES));
+    public static final RegistryObject<Item> SPICE_ORE_NETHER_ITEM = fromBlock(SPICE_ORE_NETHER);
+    public static final RegistryObject<Block> SPICE_ORE_END = BLOCKS.register("spice_ore_end", () -> new Block(BLOCK_PROPERTIES));
+    public static final RegistryObject<Item> SPICE_ORE_END_ITEM = fromBlock(SPICE_ORE_END);
+    public static final RegistryObject<Block> SPICE_ORE_DEEPSLATE = BLOCKS.register("spice_ore_deepslate", () -> new Block(BLOCK_PROPERTIES));
+    public static final RegistryObject<Item> SPICE_ORE_DEEPSLATE_ITEM = fromBlock(SPICE_ORE_DEEPSLATE);
 
     // Conveniance function: Take a RegistryObject<Block> and make a corresponding RegistryObject<Item> from it
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {

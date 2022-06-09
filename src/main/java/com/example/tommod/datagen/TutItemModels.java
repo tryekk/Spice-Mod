@@ -6,6 +6,9 @@ import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
+
+/** Blocks in inventory */
+
 public class TutItemModels extends ItemModelProvider {
 
     public TutItemModels(DataGenerator generator, ExistingFileHelper existingFileHelper) {
@@ -15,8 +18,8 @@ public class TutItemModels extends ItemModelProvider {
     @Override
     protected void registerModels() {
         withExistingParent(Registration.SPICE_ORE_OVERWORLD_ITEM.get().getRegistryName().getPath(), modLoc("block/spice_ore_overworld"));
-        withExistingParent(Registration.MYSTERIOUS_ORE_NETHER_ITEM.get().getRegistryName().getPath(), modLoc("block/mysterious_ore_nether"));
-        withExistingParent(Registration.MYSTERIOUS_ORE_END_ITEM.get().getRegistryName().getPath(), modLoc("block/mysterious_ore_end"));
-        withExistingParent(Registration.MYSTERIOUS_ORE_DEEPSLATE_ITEM.get().getRegistryName().getPath(), modLoc("block/mysterious_ore_deepslate"));
+        withExistingParent(Registration.SPICE_ORE_NETHER_ITEM.get().getRegistryName().getPath(), modLoc("block/spice_ore_nether"));
+        withExistingParent(Registration.SPICE_ORE_END_ITEM.get().getRegistryName().getPath(), modLoc("block/spice_ore_end"));
+        withExistingParent(Registration.SPICE_ORE_DEEPSLATE_ITEM.get().getRegistryName().getPath(), modLoc("block/spice_ore_deepslate"));
     }
 }
