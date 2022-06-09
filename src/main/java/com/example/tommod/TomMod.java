@@ -19,8 +19,8 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.apache.logging.log4j.LogManager;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.stream.Collectors;
 
@@ -28,8 +28,8 @@ import java.util.stream.Collectors;
 @Mod("tommod")
 public class TomMod {
 
-    private static final Logger LOGGER = (Logger) LogManager.getLogger();
-    public static final String MODID = "tutorialv3";
+//    private static final Logger LOGGER = LoggerFactory.getLogger();
+    public static final String MODID = "tommod";
 
     public TomMod() {
 
