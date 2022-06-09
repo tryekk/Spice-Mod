@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tommod:spice_ore_overworld",
+    "tommod:spice_ore_nether",
+    "tommod:spice_ore_end",
+    "tommod:spice_ore_deepslate"
+  ]
+}
